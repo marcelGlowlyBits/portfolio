@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Co-founder 010 Coding collective",
+    "company": "010 Coding collective",
+    "period": "Juni 2024 – heden",
+    "description": "De 010 Coding Collective is een collectief van tech freelancers in Rotterdam. Startup founders en/of CTO’s kunnen bij dit collectief terecht wanneer zij hun product snel willen kunnen valideren in de markt. Kenmerkend aan de werkwijze van dit collectief zijn de ‘hackathons’. Waarin binnen 8 uur een POC of MVP wordt gebouwd voor startup founders. Een Hackathon heeft een snelkookpan effect op het idee van een startup founder waardoor technische afhankelijkheden snel boven tafel komen. Aan het einde van de dag is er een werkende POC waarmee gevalideerd kan worden.",
+    "stack": "Nextjs, Typescript, Google Cloud, Nodejs, Figma, Github Actions, Fastify"
+  },
+  {
+    "title": "Freelance Typescript developer",
+    "company": "Marcel Fleuren",
+    "period": "2017 - heden",
+    "description": "Als freelance software developer heeft Marcel voor diverse opdrachtgevers gewerkt, vari rend van kleine startups tot grote financi le instellingen. Een rode draad in zijn werk is zijn vermogen om een abstract concept om te zetten in een eerste MVP. Voor Based on Skills heb ik het concept van een banenmarktplaats voor een specifieke doelgroep weten te vertalen naar een mobiele applicatie. Binnen een week na lancering bereikte de app 2000 gebruikers. Voor Guided Travel Planning, een startup uit Londen, heb ik de wens voor een AI-gestuurde travel planner uitgewerkt tot een werkend MVP. Met behulp van deze MVP is de startup toegelaten tot de YC Combinator startup incubator in de VS.",
+    "stack": "Nextjs, Typescript, Google Cloud, Nodejs, Figma, Github Actions, Fastify"
+  },
+  {
+    "title": "React-native Developer - Trigion",
+    "company": "Trigion",
+    "period": "Juli 2024 - Feb 2025",
+    "description": "Als React-native developer verantwoordelijk voor de Mobiele Applicatie en Backoffice binnen een nieuwe lijn van digitale producten voor veiligheidsbedrijven in Nederland. Binnen een multi-disciplinair team wordt er op agile wijze gewerkt aan een nieuwe Design System en integraties tussen Edge Devices en een React-Native applicatie. Dit alles moet er voor zorgen dat er op innovatieve wijze, het werk van een beveiliger makkelijker zal worden gemaakt.",
+    "stack": " React, Remix, Docker, React-Native, Typescript, Azure Devops, Figma, CI/CD, Expo, Cypress, Playwright"
+  },
+  {
+    "title": "Front-end Developer - Rabobank Innovation",
+    "company": "Rabobank Innovation departement",
+    "period": "Mei 2023 – Apr 2024",
+    "description": "Verantwoordelijk voor de bouw van de Frontend applicatie voor het ‘Solace’ platform. Een complex data gedreven project binnen het Innovation Departement van de Rabobank. De uitdaging in dit project was te vinden in het samenvoegen van verschillende grote datastromen, om deze gegevens vervolgens uit te werken in een intuitief en gebruiksvriendelijke applicatie. Mijn affiniteit met UX design zorgde ervoor dat ik een belangrijke rol heb gespeeld in het vertalen van business requirements naar technische implementaties.",
+    "stack": "Nextjs, Typescript, Azure devops, Nodejs, Figma, CI/CD, Event driven architecture, Playwright testing, D3"
+  },
+  {
+    "title": "React-Native developer - JP Cars",
+    "company": "JPcars",
+    "period": "Jan 2023 - Apr 2023 ",
+    "description": "Verantwoordelijk voor het herschrijven van de huidige applicatie volgens SOLID Principles. Tevens zijn er nieuwe features geimplementeerd, tevens is er een CI/CD Pipeline opgezet en geoptimaliseerd. Ook verantwoordelijk voor het uitvoeren van een nieuwe release naar de IOS App store en Google play store.",
+    "stack": "React, React-Native, Typescript, Github, Nodejs, Jira, Figma, CI/CD, Fastlane"
+  },
+  {
+    "title": "Front-end Developer - Label A / Ace",
+    "company": "Rabobank Innovation departement",
+    "period": "Nov 2019  – Dec 2022",
+    "description": "VVerantwoordelijk voor de ontwikkeling, inrichting van CI/CD en onderhoud van mobile apps, websites/webshops en gebruikersportalen voor innovatieve startups zoals Rocycle, Nowatch en Amdax. De opdrachten werden in sprints uitgevoerd binnen een multidisciplinair scrumteam. Tevens lid van het interne Innovatie Team.",
+    "stack": "React, React-Native, Javascript, Typescript, Gatsby, Nextjs, Gitlab, Webpack, Github, Nodejs, Jira, Figma, Headless architecture, Shopify, Contentful, HTML5, CSS, css-in-js, scrum, TDD, Lokalise, Sonarcloud, CI, CD, Storybook"
+  },
+  {
+    "title": "Software Developer - Cern Associate Member",
+    "company": "Cern",
+    "period": "Mei 2019 - Juli 2021 - Amsterdam & Geneve",
+    "description": "Verantwoordelijk voor de bouw en het UX ontwerp voor een prototype van een nieuwe logging tool genaamd ‘Jiskefet’. Met deze logging tool kan er op intuitieve wijze, data van de Cern Deeltjesversneller worden ingevoerd en uitgelezen.",
+    "stack": "React, Github, Nodejs, Sketch, Agile, Trello, Typescript, CI/CD"
+  }
+]

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marcel Fleuren – Frontend Developer</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Marcel Fleuren</h1>
+      <p>
+        Typescript Developer • React Native Developer • Retrogaming enthousiast
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Profiel</h2>
+        <p>
+          Marcel is een front-end developer met specialisatie in React
+          Frameworks. Hij gaat graag op zoek gaat naar manieren om het digitale
+          product steeds intuïtiever te maken voor de eindgebruiker. Hij is
+          leergierig en heeft passie voor het werk wat hij oplevert. Met
+          diepgaande kennis in React, Nextjs, Remix en React-native deelt hij
+          graag zijn opgedane kennis met zijn collega’s.
+        </p>
+        <p>
+          Door zijn brede opleiding heeft hij ook affiniteit met UX en UI
+          design. Hierdoor heeft Marcel geleerd om gebruiksvriendelijke
+          interfaces te ontwerpen voor de eindgebruiker.
+        </p>
+      </section>
+
+      <section>
+        <h2>Werkervaring</h2>
+        <div id="ervaringen">Laden...</div>
+      </section>
+
+      <section>
+        <h2>Opleidingen</h2>
+        <ul>
+          <li>
+            Communication & Multimedia Design, Hogeschool van Amsterdam (2016 –
+            2020)
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Trainingen en Workshops</h2>
+        <ul>
+          <li>Scrum Master Training – Scrum Academy Rotterdam (2019)</li>
+          <li>Typescript 101 – Intern Label A (2019)</li>
+          <li>Typescript Training – Gegeven (2022)</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Marcel Fleuren</p>
+    </footer>
+
+    <script>
+      fetch("workexperience.json")
+        .then((res) => res.json())
+        .then((data) => {
+          const container = document.getElementById("ervaringen");
+          container.innerHTML = "";
+          data.forEach((job) => {
+            const el = document.createElement("details");
+            el.className = "job";
+            el.innerHTML = `
+              <summary><strong>${job.title} (${job.period})</strong></summary>
+              <div class="job-content">
+                <p><em>${job.company}</em><br>${job.period}</p>
+                <p>${job.description}</p>
+                <p><strong>Gewerkt met:</strong> ${job.stack}</p>
+              </div>
+            `;
+            container.appendChild(el);
+          });
+        })
+        .catch((err) => {
+          document.getElementById("ervaringen").innerText =
+            "Kon werkervaring niet laden.";
+          console.error(err);
+        });
+    </script>
+  </body>
+</html>
