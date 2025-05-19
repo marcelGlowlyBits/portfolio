@@ -1,5 +1,12 @@
 [
   {
+    "title": "React-Native developer",
+    "company": "Tournify",
+    "period": "Mei 2024 - huidig",
+    "description": "Bij Tournify wordt gewerkt aan zowel de React-Native app als de Next.js webapplicatie binnen een gedeelde Monorepo-architectuur met Expo. Tournify is een platform waarmee live toernooien beheerd en gevolgd kunnen worden. De technische uitdaging ligt in het efficiënt organiseren van gedeelde code en logica binnen één Monorepo, waarbij mobiele en webfunctionaliteit naadloos samenkomen.",
+    "stack": "Expo, Monorepo, Pnpm, React-Native, Nextjs, Tailwind, Nativewind"
+  },
+  {
     "title": "Co-founder 010 Coding collective",
     "company": "010 Coding collective",
     "period": "Juni 2024 – heden",
@@ -10,7 +17,7 @@
     "title": "Freelance Typescript developer",
     "company": "Marcel Fleuren",
     "period": "2017 - heden",
-    "description": "Als freelance software developer heeft Marcel voor diverse opdrachtgevers gewerkt, vari rend van kleine startups tot grote financi le instellingen. Een rode draad in zijn werk is zijn vermogen om een abstract concept om te zetten in een eerste MVP. Voor Based on Skills heb ik het concept van een banenmarktplaats voor een specifieke doelgroep weten te vertalen naar een mobiele applicatie. Binnen een week na lancering bereikte de app 2000 gebruikers. Voor Guided Travel Planning, een startup uit Londen, heb ik de wens voor een AI-gestuurde travel planner uitgewerkt tot een werkend MVP. Met behulp van deze MVP is de startup toegelaten tot de YC Combinator startup incubator in de VS.",
+    "description": "Als freelance software developer heeft Marcel voor grote reeks opdrachtgevers gewerkt, varierend van kleine startups tot grote financiele instellingen. Een rode draad in zijn werk is zijn vermogen om een abstract concept om te zetten in een eerste MVP. Voor Guided Travel Planning, een startup uit Londen, heb ik de wens voor een AI-gestuurde travel planner uitgewerkt tot een werkend MVP. Met behulp van deze MVP is de startup toegelaten tot de YC Combinator startup incubator in de VS. Voor de Utilitarian heb ik een eerste concept uitgewerkt naar een werkende POC. Deze POC is vervolgens gebruikt om snel concepten te kunnen valideren.",
     "stack": "Nextjs, Typescript, Google Cloud, Nodejs, Figma, Github Actions, Fastify"
   },
   {
@@ -35,10 +42,10 @@
     "stack": "React, React-Native, Typescript, Github, Nodejs, Jira, Figma, CI/CD, Fastlane"
   },
   {
-    "title": "Front-end Developer - Label A / Ace",
-    "company": "Rabobank Innovation departement",
+    "title": "Front-end Developer",
+    "company": "Label A / Ace",
     "period": "Nov 2019  – Dec 2022",
-    "description": "VVerantwoordelijk voor de ontwikkeling, inrichting van CI/CD en onderhoud van mobile apps, websites/webshops en gebruikersportalen voor innovatieve startups zoals Rocycle, Nowatch en Amdax. De opdrachten werden in sprints uitgevoerd binnen een multidisciplinair scrumteam. Tevens lid van het interne Innovatie Team.",
+    "description": "Verantwoordelijk voor de ontwikkeling, inrichting van CI/CD en onderhoud van mobile apps, websites/webshops en gebruikersportalen voor innovatieve startups zoals Rocycle, Nowatch en Amdax. De opdrachten werden in sprints uitgevoerd binnen een multidisciplinair scrumteam. Tevens lid van het interne Innovatie Team.",
     "stack": "React, React-Native, Javascript, Typescript, Gatsby, Nextjs, Gitlab, Webpack, Github, Nodejs, Jira, Figma, Headless architecture, Shopify, Contentful, HTML5, CSS, css-in-js, scrum, TDD, Lokalise, Sonarcloud, CI, CD, Storybook"
   },
   {

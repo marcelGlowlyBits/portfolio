@@ -1,8 +1,61 @@
+:root {
+  --heading-font-family: "Kreon", serif;
+  --paragraph-font-family: "Ubuntu", sans-serif;
+  --accent-color: #a7ffeb;
+  --borderradius-small: 0.3rem;
+  /* --cta-color: #3f51b5; */
+  --cta-color: #ff2d95;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading-font-family);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+  color: var(--accent-color);
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+button > a {
+  color: white;
+}
+
+button.info {
+  border-radius: var(--borderradius-small);
+  background: var(--cta-color);
+  /* background: #ff2d95; */
+}
+
+p {
+  font-family: var(--paragraph-font-family);
+  font-weight: 300;
+  font-style: normal;
+}
+
+summary {
+  font-family: var(--paragraph-font-family);
+  font-style: normal;
+  font-weight: 300;
+}
+
+section {
+  margin-bottom: 3.4rem;
+}
+
 details.job {
-  border: 1px solid #444;
-  border-radius: 8px;
+  border-radius: var(--borderradius-small);
   padding: 1rem;
-  margin-bottom: 1.5rem;
   transition: background 0.3s ease;
 }
 
